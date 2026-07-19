@@ -1,1 +1,39 @@
+# 🤖 AI Negotiator Bot
+
+An AI-powered command-line bot that simulates price negotiations between a buyer and a seller. Built using Python and local LLMs via Ollama.
+
+---
+
+## 🚀 Features
+
+- 📦 Predicts market price for any product using an LLM
+- 💬 Simulates realistic negotiation dialogue
+- 🧠 Uses local LLMs like LLaMA 3 through the Ollama Python API
+- ✅ Automatically concludes deals when conditions are met
+
+---
+
+## 🛠️ Tech Stack
+
+| Component         | Description                               |
+|------------------|-------------------------------------------|
+| Python 3.13       | Programming language                      |
+| Ollama            | Local AI model runner (e.g., LLaMA 3)     |
+| LLaMA 3 8B/7B     | Language model for generating responses   |
+| GitHub            | Version control and code hosting          |
+
+---
+
+## 🧑‍💻 How It Works
+
+1. **Input**: You enter the name of a product (e.g., "old bike").
+2. **LLM Prediction**: The system uses an LLM to predict a fair market price.
+3. **Negotiation**:
+   - A simulated **buyer** makes an initial offer.
+   - A **seller agent** evaluates the offer and responds accordingly.
+4. **Deal**: The negotiation continues until a deal is accepted.
+
+---
+
+## 📂 Project Structure
 
